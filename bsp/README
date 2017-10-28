@@ -1,17 +1,16 @@
-Заготовка.
+Procurement.
 
-!. Структура директорий
+!. Directory structure
 .
-`-- pdz
-    |-- README -- Этот файт
-    |-- board -- платформо зависимые файлы
-    |-- doc -- документация
-    |-- net_pack -- описание сетевых пакетов
-    |-- src -- описание технологии работы устройства
-    `-- subsys -- подсистемы 
-        |-- boil -- файлы относящиеся к бойлерной
-        |-- cond -- * к кондиционерам
-        |-- devs -- файлы технологических устройств
-        |-- pdz -- файлы относящиеся к ПДЗ
-        `-- vent -- * к системам вентиляции
- 
+`- pdz
+    | - README - This file
+    | - board - platform dependent files
+    | - doc - documentation
+    | - net_pack - description of network packets
+    | - src - description of the technology of the device
+    `- subsys - subsystems 
+        | - boil - files related to the boiler
+        | - cond - * to air conditioners
+        | - devs - files of technological devices
+        | - pdz - files related to PDV
+        `- vent - * to ventilation systems
